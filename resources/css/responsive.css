@@ -1,0 +1,242 @@
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.row{
+	max-width:117rem;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.row{
+	width:97rem;
+}
+.read_more {
+	margin-top: -6rem;
+
+}
+.service_content p {
+	
+	font-size: 1.3rem;
+	
+}
+.service_content {
+
+	transform: translatey(75%);
+
+}
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.row{
+	width:75rem;
+
+}
+.service_content p {
+display:none;
+}
+.service_content {
+
+	transform: translatey(70%);
+
+}
+.service_content .far.fa-chart-bar, .service_content .fa.fa-cogs, .service_content .fa.fa-cart-plus {
+
+	padding-left: 2rem;
+
+}
+.read_more {
+
+
+	margin-top: 15rem;
+}
+.service_content h3 {
+
+	width: 100%;
+}
+.project_section .owl-carousel .owl-next,
+.project_section .owl-carousel .owl-prev {
+
+	top: 12rem;
+}
+.blog_post p {
+	
+	font-size: 1.1rem;
+	
+}
+.blog_post a {
+padding-right:0;
+
+}
+.footer_widget .span_1_of_4 {
+	width: 32.2%;
+}
+.contact_us.h5 {
+	display: none;
+}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+ .row{
+	width:30rem;
+}
+html{
+	font-size:57.5%;
+	-webkit-scroll-behavior:smooth;
+	scroll-behavior:smooth;
+	
+}
+.slider_content h2 {
+
+	font-size: 4.2rem;
+
+}
+.logo {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.search_icon a {
+	
+	padding-top: 2rem;
+	
+
+}
+.work .span_1_of_2 {
+	width: 100%;
+}
+.service_section .span_1_of_3 {
+	width: 100%;
+}
+.service_section .col:first-child {
+	 /* margin-left: 5px;  */
+}
+.single_provide .span_1_of_3 {
+	width: 100%;
+}
+.single_provide .col.span_1_of_3.margin-left,.single_provide .col:first-child {
+	margin-left: 6px;
+
+	margin-left: 6px;
+}
+.project_section .owl-carousel .owl-next,
+.project_section .owl-carousel .owl-prev {
+
+	top: 9rem;
+}
+.video_section .span_1_of_2 {
+	width: 100%;
+	
+	padding-top: 2rem;
+}
+.work_section .span_1_of_2 {
+	width: 100%;
+}
+.blog_testimonial .span_1_of_2{
+width: 100%;	
+}
+.blog_post {
+
+	padding-left: 0rem;
+	display: block;
+	width: 100%;
+	padding-top: 4rem;
+}
+.blog_pic {
+
+	width: 100%;
+}
+.footer_widget .span_1_of_4 {
+	width: 100%;
+}
+.feature {
+	padding-left: 0;
+}
+.h5 h5 {
+	padding-top: 4rem;
+}
+.service_content p {
+	
+	font-size: 1.35rem;
+	
+	padding: 6rem 2rem;
+	
+}
+.service_content .far.fa-chart-bar, .service_content .fa.fa-cogs, .service_content .fa.fa-cart-plus {
+	
+	padding-left: 2rem;
+	
+}
+.service_content {
+
+	transform: translatey(74%);
+	
+}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.row{
+	width:45rem;
+}
+.slider_content h2 {
+
+	font-size: 5.2rem;
+
+}
+.project_section .owl-carousel .owl-next,
+.project_section .owl-carousel .owl-prev {
+
+	top: 15rem;
+}
+.service_content p {
+	font-size: 1.5rem;
+	padding: 8rem 2rem;
+}
+.service_content {
+
+	transform: translatey(82%);
+	
+}
+.service_section .col:first-child {
+	 margin-left: 5px; 
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+.service_content p {
+	
+	font-size: 1.3rem;
+	
+	padding: 6rem 2rem;
+	
+}
+}
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
